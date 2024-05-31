@@ -17,6 +17,11 @@ const Navbar = () => {
             link: "/users",
             name: "UserPage"
         },
+        {
+            id: 3,
+            link: "/users",
+            name: "MyOtherPage"
+        },
     ];
 
     return (
@@ -33,7 +38,7 @@ const Navbar = () => {
                 {links.map(({ id, link, name }) => (
                     <li
                         key={id}
-                        className="nav-links px-4 cursor-pointer capitalize font-medium text-white-500 hover:scale-105 hover:text-white duration-200 link-underline"
+                        className="nav-links px-4 cursor-pointer capitalize font-medium text-white hover:scale-105 hover:text-white duration-200 link-underline"
                     >
                         <Link href={link}>{name}</Link>
                     </li>

@@ -15,12 +15,7 @@ const Navbar = () => {
         {
             id: 2,
             link: "/users",
-            name: "UserPage"
-        },
-        {
-            id: 3,
-            link: "/users",
-            name: "MyOtherPage"
+            name: "ReverseString"
         },
     ];
 
